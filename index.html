@@ -2,12 +2,12 @@
   <head>
     <title>My page</title>
     <script>
-      function ora() { this.innerHTML = Date();}
+      function ora() { return new Date();}
     </script>
                        
   </head>
 <body>
 <h1>First Page</h1>
-  <button type="button" onclick="this.innerHTML = Date()">Data</button>
+  <button type="button" onclick="this.innerHTML = ora()">Data</button>
 </body>
 </html>
